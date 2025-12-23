@@ -55,7 +55,7 @@ const router = useRouter();
       {/* Back Button */}
       <button
         onClick={() => router.push('/')}
-        className="mb-4 text-teal-600 hover:text-teal-700 focus:outline-none"
+        className="mb-4 text-red-600 hover:text-teal-700 focus:outline-none"
       >
         &#8592; Back to Home
       </button>
