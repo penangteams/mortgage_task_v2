@@ -72,7 +72,7 @@ focus:outline-none focus:ring-2 focus:ring-green-500">Go to Contacts</button>
 
         {/* Left: API JSON */}
         <div className="flex-1 bg-white p-6 rounded shadow-lg">
-          <h2 className="text-7xl font-bold text-green-700 mb-4">API Response</h2>
+          <h2 className="text-2xl font-bold text-green-700 mb-4">API Response</h2>
           {loading ? (
             <p className="text-gray-700">Loading...</p>
           ) : productData ? (
